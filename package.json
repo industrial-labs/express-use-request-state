@@ -1,17 +1,13 @@
 {
   "name": "@industrial-labs/express-use-request-state",
   "version": "1.0.0",
-  "description": "",
+  "description": "Persist state during a request in express.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "tsc",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "build": "tsc"
   },
   "author": "Nicholas Peretti <peretti.nicholas@gmail.com>",
   "license": "ISC",
@@ -23,11 +19,18 @@
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "lint-staged": "^12.1.7",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/industrial-labs/express-use-request-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/industrial-labs/express-use-request-state/issues"
+  },
+  "homepage": "https://github.com/industrial-labs/express-use-request-state#readme"
 }
